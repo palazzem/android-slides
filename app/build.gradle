@@ -22,4 +22,5 @@ android {
 dependencies {
     compile 'com.thalmic:myosdk:0.10.0@aar'
     compile 'com.android.support:appcompat-v7:22.1.1'
+    compile 'org.xwalk:xwalk_core_library:12.41.296.9'
 }

@@ -16,5 +16,10 @@ allprojects {
         maven {
             url '../lib/myo'
         }
+
+        // Crosswalk repository
+        maven {
+            url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2'
+        }
     }
 }
