@@ -5,6 +5,12 @@
     tools:context=".SlidesActivity">
 
     <item
+        android:id="@+id/action_overview"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="@string/action_overview"
+        app:showAsAction="ifRoom" />
+
+    <item
         android:id="@+id/action_previous"
         android:icon="@android:drawable/ic_media_previous"
         android:title="@string/action_previous"

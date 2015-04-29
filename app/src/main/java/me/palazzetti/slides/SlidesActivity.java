@@ -8,6 +8,8 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import me.palazzetti.slides.controller.Reveal;
+
 public class SlidesActivity extends AppCompatActivity {
     private WebView mReveal;
 
@@ -42,11 +44,14 @@ public class SlidesActivity extends AppCompatActivity {
             case R.id.action_settings:
                 // TODO: open ScanActivity
                 break;
+            case R.id.action_overview:
+                mReveal.evaluateJavascript(Reveal.overview(), null);
+                break;
             case R.id.action_previous:
-                // TODO change slide
+                mReveal.evaluateJavascript(Reveal.previousSlide(), null);
                 break;
             case R.id.action_next:
-                // TODO change slide
+                mReveal.evaluateJavascript(Reveal.nextSlide(), null);
                 break;
         }
 
