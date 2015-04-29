@@ -1,11 +1,67 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <title>No one</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <title>Myo</title>
+    <meta name="description" content="Simple description">
+    <meta name="author" content="Emanuele Palazzetti">
+
+    <link rel="stylesheet" href="framework/reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="framework/reveal.js/css/theme/night.css" id="theme">
+    <link rel="stylesheet" href="framework/reveal.js/lib/css/zenburn.css">
 </head>
 <body>
-    <p>Hello world!</p>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1>Slides 1</h1>
+                <h3>Hello world!</h3>
+            </section>
+
+            <section>
+                <h2>Hello There</h2>
+                <p>We're already talking about Myo!</p>
+            </section>
+
+            <section>
+                <h2>And now, some code!</h2>
+                <pre><code data-trim contenteditable>
+private void myoInitialization() {
+    // Hub initialization (manages Myo instances)
+    mHub = Hub.getInstance();
+    boolean status = mHub.init(this);
+
+    // checks Hub initialization (fails if the system doesn't support Bluetooth Low Energy)
+    if (!status) {
+        Toast.makeText(this, "Bluetooth Low Energy not available. Aborting.",
+                    Toast.LENGTH_LONG).show();
+    } else {
+        // prevents statistics data to be sent
+        mHub.setSendUsageData(false);
+        mHub.addListener(new DeviceListener(this));
+    }
+}
+                </code></pre>
+            </section>
+        </div>
+    </div>
+
+    <script src="framework/reveal.js/lib/js/head.min.js"></script>
+    <script src="framework/reveal.js/js/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            controls: false,
+            progress: false,
+            transition: 'fade',
+
+            dependencies: [
+                { src: 'framework/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+            ]
+        });
+    </script>
 </body>
 </html>
