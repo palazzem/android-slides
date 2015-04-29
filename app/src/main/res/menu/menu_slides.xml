@@ -23,7 +23,7 @@
         app:showAsAction="ifRoom" />
 
     <item
-        android:id="@+id/action_settings"
-        android:title="@string/action_settings"
+        android:id="@+id/action_pairing"
+        android:title="@string/action_pairing"
         app:showAsAction="never" />
 </menu>

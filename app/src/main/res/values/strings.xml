@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Slides</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="action_pairing">Myo Pairing</string>
     <string name="action_overview">Overview</string>
     <string name="action_previous">Previous</string>
     <string name="action_next">Next</string>
