@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Slides</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
 </resources>

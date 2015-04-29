@@ -38,8 +38,16 @@ public class SlidesActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.action_settings) {
-            return true;
+        switch(id) {
+            case R.id.action_settings:
+                // TODO: open ScanActivity
+                break;
+            case R.id.action_previous:
+                // TODO change slide
+                break;
+            case R.id.action_next:
+                // TODO change slide
+                break;
         }
 
         return super.onOptionsItemSelected(item);
