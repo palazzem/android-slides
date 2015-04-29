@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "me.palazzetti.slides"
-        minSdkVersion 18
+        minSdkVersion 19
         targetSdkVersion 22
         versionCode 1
         versionName "0.1.0"
@@ -22,5 +22,4 @@ android {
 dependencies {
     compile 'com.thalmic:myosdk:0.10.0@aar'
     compile 'com.android.support:appcompat-v7:22.1.1'
-    compile 'org.xwalk:xwalk_core_library:12.41.296.9'
 }

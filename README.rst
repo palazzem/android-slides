@@ -2,7 +2,7 @@
 Android slides
 ==============
 
-Puts together a `Crosswalk WebView`_ with the Myo project interface. From your smartphone or tablet.
+Uses the Myo project interface to control amazing slides in your smartphone or tablet.
 
 Documentation
 -------------
@@ -14,5 +14,3 @@ License
 -------
 
 Android slides is released under the terms of the **BSD license**. Full details in ``LICENSE`` file.
-
-.. _Crosswalk WebView: https://crosswalk-project.org/
