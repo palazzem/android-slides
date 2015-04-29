@@ -35,7 +35,7 @@ public class SlidesActivity extends AppCompatActivity implements GestureRecognit
 
         // load the slides
         mReveal.setWebViewClient(new WebViewClient());
-        mReveal.loadUrl("http://lab.hakim.se/reveal-js");
+        mReveal.loadUrl(Constants.SLIDES_ENTRYPOINT);
 
         // it's the cool stuff
         myoInitialization();
