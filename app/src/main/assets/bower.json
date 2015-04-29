@@ -1,0 +1,26 @@
+{
+  "name": "myo-slides",
+  "version": "0.1.0",
+  "homepage": "https://github.com/palazzem/android-slides",
+  "authors": [
+    "Emanuele Palazzetti <emanuele.palazzetti@gmail.com>"
+  ],
+  "description": "Android slides using an embedded version of Reveal.js",
+  "main": "index.html",
+  "keywords": [
+    "reveal",
+    "android"
+  ],
+  "license": "BSD",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "~3.0.0"
+  }
+}
