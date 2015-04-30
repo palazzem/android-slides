@@ -75,8 +75,10 @@ public class SlidesActivity extends AppCompatActivity implements GestureRecognit
         switch (action) {
             case PREVIOUS:
                 mReveal.evaluateJavascript(Reveal.previousSlide(), null);
+                break;
             case NEXT:
                 mReveal.evaluateJavascript(Reveal.nextSlide(), null);
+                break;
         }
     }
 
