@@ -10,44 +10,495 @@
     <meta name="description" content="Simple description">
     <meta name="author" content="Emanuele Palazzetti">
 
-    <link rel="stylesheet" href="framework/reveal.js/css/reveal.css">
-    <link rel="stylesheet" href="framework/reveal.js/css/theme/night.css" id="theme">
-    <link rel="stylesheet" href="framework/reveal.js/lib/css/zenburn.css">
+    <link href="css/slides.css" media="all" rel="stylesheet">
+    <link href="css/application.css" media="all" rel="stylesheet">
+    <link href="css/deck.css" media="all" rel="stylesheet">
+    <link href="css/josefinsans.css" rel="stylesheet">
 </head>
 <body>
+<div class="reveal-viewport theme-font-josefine theme-color-beige-brown">
     <div class="reveal">
-        <div class="slides">
-            <section>
-                <h1>Slides 1</h1>
-                <h3>Hello world!</h3>
-            </section>
-
-            <section>
-                <h2>Hello There</h2>
-                <p>We're already talking about Myo!</p>
-            </section>
-
-            <section>
-                <h2>And now, some code!</h2>
-                <pre><code data-trim contenteditable>
-private void myoInitialization() {
-    // Hub initialization (manages Myo instances)
-    mHub = Hub.getInstance();
-    boolean status = mHub.init(this);
-
-    // checks Hub initialization (fails if the system doesn't support Bluetooth Low Energy)
-    if (!status) {
-        Toast.makeText(this, "Bluetooth Low Energy not available. Aborting.",
-                    Toast.LENGTH_LONG).show();
-    } else {
-        // prevents statistics data to be sent
-        mHub.setSendUsageData(false);
-        mHub.addListener(new DeviceListener(this));
-    }
-}
-                </code></pre>
-            </section>
+    <div class="slides">
+    <section class="" data-id="cb24ed9767ca4ffc50489854d0a0004b">
+        <h1 style="font-style: normal; font-variant: normal; position: absolute; width: 968px; height: 399px; z-index: 4; left: -5px; top: 20px;">
+            <img src="images/background_mokapp.png" style="width: 777.876739562624px; height: 548px; max-height: none; max-width: none;"/>&nbsp;
+            <br/>
+        </h1>
+        <div class="absolute-element" style="font-size: 36px; font-style: normal; font-variant: normal; position: absolute; width: 211px; height: 278px; z-index: 4; left: 360px; top: 310px;">
+            <br/>
         </div>
+        <h3 class="absolute-element" style="position: absolute; width: 340px; height: 47px; z-index: 4; left: 296px; top: 628px;">
+            <span>http://mokapp.com</span>
+        </h3>
+    </section>
+    <section class="" data-id="8295f3bb0cac1f55df26332682a2fb3d">
+        <h3 style="font-style: normal; font-variant: normal;">
+            <img src="images/me.png" style="font-size: 36.084800720214844px; font-style: normal; font-variant: normal; max-width: none; max-height: none; width: 226.61659873730974px; height: 225.28539306866242px;"/>
+            <b>
+                <br/>
+            </b>
+        </h3>
+        <h3 style="font-style: normal; font-variant: normal;">
+            <b>Emanuele Palazzetti</b>
+        </h3>
+        <h3 style="font-style: normal; font-variant: normal;">
+            <font style="font-size: 32px;">Python backend developer</font>
+        </h3>
+        <h3 style="font-style: normal; font-variant: normal;">@</h3>
+        <h2 style="font-style: normal; font-variant: normal;"></h2>
+        <h3 style="font-style: normal; font-variant: normal;">
+            <img src="images/evonove.png" style="max-width: none; max-height: none; width: 168px; height: 32.90721649484536px;"/>
+        </h3>
+        <h3 class="absolute-element" style="font-style: normal; font-variant: normal; position: absolute; width: 627px; height: 47px; z-index: 4; left: 178px; top: 626px;">
+            <font style="font-size: 32px;">palazzetti.me&nbsp;::&nbsp;@palazzem ::&nbsp;github.com/palazzem</font>
+        </h3>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="a1efd1663c77e2b6a9c2f1c27a3cba53">
+        <h3 style="font-style: normal; font-variant: normal;">
+            <img src="images/me.png" style="font-size: 36.084800720214844px; font-style: normal; font-variant: normal; max-width: none; max-height: none; width: 226.61659873730974px; height: 225.28539306866242px;"/>
+            <b>
+                <br/>
+            </b>
+        </h3>
+        <h3 style="font-style: normal; font-variant: normal;">
+            <b>Emanuele Palazzetti</b>
+        </h3>
+        <h3 style="font-style: normal; font-variant: normal;">
+            <span style="font-size: 31.9284801483154px;">Community manager</span>
+        </h3>
+        <h3 style="font-style: normal; font-variant: normal;">@</h3>
+        <h2 style="font-style: normal; font-variant: normal;"></h2>
+        <h3 style="font-style: normal; font-variant: normal;">
+            <img src="images/logo_gdg_perugia.png"/>
+            <br/>
+        </h3>
+        <h3 class="absolute-element" style="font-style: normal; font-variant: normal; position: absolute; width: 627px; height: 47px; z-index: 4; left: 178px; top: 626px;">
+            <font style="font-size: 32px;">palazzetti.me&nbsp;::&nbsp;@palazzem ::&nbsp;github.com/palazzem</font>
+        </h3>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="48a5afe80fa40190f2ab4b28c869e2e5">
+        <h1></h1>
+        <h2 style="text-align: left;">
+            <span style="font-size: 115.362px;">Grab, pinch and squeeze!</span>
+        </h2>
+        <h2 style="text-align: left;">
+            <span style="font-size: 115.362px;">When a gesture is no longer enough!</span>
+        </h2>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="15af309074d9265f5508e4ca278f7087">
+        <h1>
+            <br/>
+        </h1>
+        <h1>
+            <span style="font-size: 115.362px;">Which of you is using a wearable device?</span>
+            <br/>
+        </h1>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="65289a81f7b3de73f3434c13c574f56a">
+        <h2>Wearable success is bounded to its integration capability with your body</h2>
+        <p class="absolute-element" style="position: absolute; width: 562px; height: 306px; z-index: 4; left: 376px; top: 226px;">
+            <img src="images/apple_watch.png"/>
+            <br/>
+        </p>
+        <div style="text-align: left; position: absolute; width: 321px; height: 306px; z-index: 4; left: 10px; top: 215px;" class="absolute-element">
+            <img src="images/lg_urban_watch.png" style="width: 293.733590733591px; height: 321px; max-height: none; max-width: none;"/>
+        </div>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="a6bc14ff3a5872c89a274131a5ce7dc3">
+        <h2>Wearable success is bounded to its integration with your body</h2>
+        <div>
+            <br/>
+        </div>
+        <div>
+            <img src="images/google-glass.jpg" style="width: 529px; height: 329.7984375px; max-height: none; max-width: none;"/>
+            <br/>
+        </div>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="3ac1a0b0feb0532bb00b94715c507fff">
+        <h2>Wearable success is bounded to its integration capability with your body</h2>
+        <div>
+            <img src="https://s3.amazonaws.com/media-p.slid.es/uploads/142994/images/1356298/eavi_project.png" style="width: 432px; height: 487.173913043478px; max-height: none; max-width: none;"/>
+            <br/>
+        </div>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="6ed8bc6f313f098b0925b895156c3239">
+        <h2>
+            <br/>
+        </h2>
+        <h2>
+            <br/>
+        </h2>
+        <h2>Whatever is the wearable, this technology is near to us, it grows with us becoming a part of us, an extension of us</h2>
+        <div>
+            <br/>
+        </div>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="76a34fccb3479e1dc67a2ee1db26e1f5">
+        <h2>
+            <br/>
+        </h2>
+        <h2>And it gives superpower!</h2>
+        <h2>
+            <img src="images/when_superhero.jpg" style="width: 611px; height: 345.826px; max-height: none; max-width: none;"/>&nbsp;
+        </h2>
+        <div>
+            <br/>
+        </div>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="16b5f8133986100a4f1a1ad0e768592e">
+        <h2>
+            <br/>
+        </h2>
+        <h2>The greatest challenge to become a superhero through technology</h2>
+        <div>
+            <br/>
+        </div>
+        <p>It isn't related to the wearable size, to the computational power or the connectivity</p>
+        <p>
+            <br/>
+        </p>
+        <p>but to the
+            <b>Human-Computer Interaction (HCI)</b>
+        </p>
+        <div>
+            <br/>
+        </div>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="af85c7b02855ed6d99f98b04bd5af1a9">
+        <h2>
+            <br/>
+        </h2>
+        <h2>
+            <br/>
+        </h2>
+        <div>
+            <br/>
+        </div>
+        <h2>Mapping natural actions is a requirement</h2>
+        <div>
+            <br/>
+        </div>
+        <div>(like I'm doing through Myo sliding forward or backward)</div>
+        <div>
+            <br/>
+        </div>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="71c0276c0d47f58e05cce40f37198e82">
+        <h2>
+            <span style="font-size: 64.566px;">What is a Myo?</span>
+            <br/>
+        </h2>
+        <div>
+            <br/>
+        </div>
+        <div>
+            <img src="images/myo-muscle.jpg"/>
+            <br/>
+        </div>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="50ee9d90be23d57f57a95af697beb4cb">
+        <h2>Recognized gestures
+        </h2>
+        <div>
+            <br/>
+        </div>
+        <h3 style="text-align: center;">Fingers double tap</h3>
+        <h3 style="text-align: center;">Fingers spread</h3>
+        <h3 style="text-align: center;">Wave out</h3>
+        <h3 style="text-align: center;">Wave in</h3>
+        <h3 style="text-align: center;">Arm movements</h3>
+        <h3 style="text-align: center;">Arm rotation</h3>
+        <div>
+            <img src="images/myo-gestures.png"/>
+            <br/>
+        </div>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="8da283b8602bb08df6faccfc577824c5">
+        <h2>Tech specs
+        </h2>
+        <div>
+            <br/>
+        </div>
+        <div class="absolute-element" style="position: absolute; width: 317px; height: 284px; z-index: 4; left: 13px; top: 135px; max-height: none; max-width: none;">
+            <img src="images/myo-black.png" style="width: 277px; height: 303.561643835616px; max-height: none; max-width: none;"/>&nbsp;
+            <br/>
+        </div>
+        <div class="absolute-element" style="position: absolute; width: 543px; height: 300px; z-index: 4; left: 366px; top: 154px; max-height: none; max-width: none;">
+            <ul>
+                <li>medical Grade Stainless Steel EMG sensors
+                    <br/>
+                </li>
+                <li>highly sensitive nine-axis IMU containing three-axis gyroscope
+                    <br/>
+                </li>
+                <li>three-axis accelerometer
+                    <br/>
+                </li>
+                <li>three-axis magnetometer
+                    <br/>
+                </li>
+                <li>ARM Cortex M4 Processor
+                    <br/>
+                </li>
+                <li>Bluetooth 4.0 Low Energy</li>
+            </ul>
+        </div>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="756f76dfee915952ec118f4fde906388">
+        <h2>Available SDKs</h2>
+        <div>
+            <br/>
+        </div>
+        <div>
+            <br/>
+        </div>
+        <div>
+            <br/>
+        </div>
+        <h3 style="text-align: center;">
+            <b>Windows</b> and
+            <b>Mac&nbsp;OSX</b>
+        </h3>
+        <h3 style="text-align: center;">
+            <b>iOS</b> and
+            <b>Android</b>
+        </h3>
+        <h3 style="text-align: center;">
+            <b>Unity</b> Game Engine
+        </h3>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="8330c1fac38ebfd62ae8aaadabbe031e">
+        <h1>
+            <br/>
+        </h1>
+        <h1>Time to get</h1>
+        <h1>hands dirty!</h1>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="d74a55c88bf3fc28f82ab79f73cb757b">
+        <h1>Android slides</h1>
+        <div>
+            <img src="images/nexus9.png" style="width: 698px; height: 468.14501510574px; max-height: none; max-width: none;"/>
+            <br/>
+        </div>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="7e267169dfdeb5db9237b0f0c6d7f5cb">
+        <h2>Step #1, initialization</h2>
+        <div>
+            <br/>
+        </div>
+        <div>
+            <pre><code class="java">
+    private void myoInitialization() {
+        // Hub initialization (manages Myo instances)
+        mHub = Hub.getInstance();
+        boolean status = mHub.init(this);
+
+        if (!status) {
+            // show an Android Toast
+        } else {
+            // prevents usage data to be sent to Thalmic Labs
+            mHub.setSendUsageData(false);
+            mHub.addListener(new DeviceListener(this));
+        }
+    }
+            </code></pre>
+        </div>
+        <br/>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="47ca49f7f61cfb6965c68b1c118cfa98">
+        <h2>Step #2, DeviceListener</h2>
+        <div>
+            <br/>
+        </div>
+        <div>
+            <pre><code class="java">
+    public class DeviceListener extends AbstractDeviceListener {
+
+        @Override
+        public void onPose(Myo myo, long timestamp, Pose pose) {
+            super.onPose(myo, timestamp, pose);
+
+            switch (pose) {
+                case DOUBLE_TAP:
+                    // do something
+                    break;
+                case WAVE_IN:
+                    // do something
+                    break;
+                case WAVE_OUT:
+                    // do something
+                    break;
+                case REST:
+                    // do something
+                    break;
+                case FIST:
+                    // do something
+                    break;
+                case FINGERS_SPREAD:
+                    // do something
+                    break;
+                case UNKNOWN:
+                    // do something
+                    break;
+            }
+        }
+    }
+            </code></pre>
+        </div>
+        <br/>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="ce2abc0cf4847f47c1b1e435249ffa92">
+        <h2>Step #3, wow effect!</h2>
+        <div>
+            <br/>
+        </div>
+        <div>
+            <img src="images/wow.gif" style="width: 617px; height: 392.412px; max-height: none; max-width: none;"/>
+            <br/>
+        </div>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="fa120abb9a4e4bc1bb744df933465ce6">
+        <h2>But we need robots to rule the world!</h2>
+        <div>
+            <img src="images/robot.jpg" style="width: 612px; height: 450.468401486989px; max-height: none; max-width: none;"/>
+            <br/>
+        </div>
+        <div>(don't worry, it's harmless)</div>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png" style="font-size: 36px; font-style: normal; font-variant: normal;"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="5af124c8cf1cab4e119c388cd46c3590">
+        <h3 style="font-style: normal; font-variant: normal;">
+            <b>
+                <br/>
+            </b>
+        </h3>
+        <h3 style="font-style: normal; font-variant: normal;">
+            <b>Thank you for your attention!</b>
+        </h3>
+        <div>
+            <b>Questions?</b>
+        </div>
+        <p>
+            <br/>
+        </p>
+        <p>http://palazzetti.me</p>
+        <p>@palazzem</p>
+        <p>+EmanuelePalazzetti</p>
+        <p>
+            <br/>
+        </p>
+        <p>
+            <b>http://github.com/palazzem/android-slides</b>
+        </p>
+        <p>
+            <b>
+                <span style="font-size: 36px; font-style: normal; font-variant: normal;">http://github.com/palazzem/</span>android-udoo-rover
+            </b>
+            <br/>
+        </p>
+        <div class="absolute-element" style="position: absolute; width: 142.7428693060877px; height: 133px; z-index: 4; left: 815px; top: 560px; max-height: none; max-width: none;">
+            <img src="images/mokapp_logo.png"/>
+            <br/>
+        </div>
+    </section>
+    <section class="" data-id="52d1a74577833ba164da36a3dc8c0381">
+        <h1 style="font-style: normal; font-variant: normal; position: absolute; width: 968px; height: 399px; z-index: 4; left: -5px; top: 20px;">
+            <img src="images/background_mokapp.png" style="width: 777.876739562624px; height: 548px; max-height: none; max-width: none;"/>&nbsp;
+
+            <br/>
+        </h1>
+        <div class="absolute-element" style="font-size: 36px; font-style: normal; font-variant: normal; position: absolute; width: 211px; height: 278px; z-index: 4; left: 360px; top: 310px;">
+            <br/>
+        </div>
+        <h3 class="absolute-element" style="position: absolute; width: 340px; height: 47px; z-index: 4; left: 296px; top: 628px;">
+            <span>http://mokapp.com</span>
+        </h3>
+    </section>
+    </div>
+    </div>
     </div>
 
     <script src="framework/reveal.js/lib/js/head.min.js"></script>
