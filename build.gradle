@@ -3,7 +3,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.1.0'
+        classpath 'com.android.tools.build:gradle:1.2.2'
     }
 }
 
@@ -15,11 +15,6 @@ allprojects {
         // => using this bad practice (even if I could use a git submodule for dependency loading)
         maven {
             url '../lib/myo'
-        }
-
-        // Crosswalk repository
-        maven {
-            url 'https://download.01.org/crosswalk/releases/crosswalk/android/maven2'
         }
     }
 }
