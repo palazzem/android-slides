@@ -7,16 +7,16 @@ Uses the Myo project interface to control amazing slides in your smartphone or t
 Usage
 -----
 
-This application makes use of `Reveal.js`_ showing HTML slides. Before you can proceed and use
-this framework, you need to download Reveal dependency through `bower`_, following the steps
-below:
+This application makes use of `Reveal.js`_ for creating beautiful presentations using HTML.
+Before you can proceed and use this framework, you need to download Reveal dependency
+through `bower`_, following the steps below:
 
 .. code-block:: bash
 
-    $ (access to app/src/main/assets folder)
+    $ cd app/src/main/assets folder
     $ bower install
 
-After this, you can start writing your index.html, adding your slides as you can see in Reveal
+After this, you can start writing your ``index.html``, adding your slides as you can see in Reveal
 official documentation.
 
 .. _Reveal.js: https://github.com/hakimel/reveal.js
